@@ -1,0 +1,5 @@
+_type: prompt
+input_variables: ['score', 'user_text', 'task']
+template: > 
+  {task} в строке: "{user_text}".
+  Твой ответ должен состоять из одной цифры (0 - если условие не выполнено, {score} - если условие выполнено).
